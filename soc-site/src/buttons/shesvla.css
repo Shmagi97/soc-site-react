@@ -1,0 +1,15 @@
+.loginDivTeg > button {
+  color: rgb(184, 215, 240);
+  font-size: 15px;
+  text-decoration: none;
+
+  border: solid rgb(176, 141, 231);
+  background-color: rgb(71, 71, 134);
+  border-radius: 10px;
+  width: 100px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

@@ -1,0 +1,180 @@
+.loginValueDiv {
+  height: 300px;
+  border: solid rgb(176, 141, 231);
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginValueSection {
+  width: 100%;
+  height: 290px;
+  position: relative;
+  top: -4.5px;
+}
+
+.loginValueDiv2 {
+  position: absolute;
+  top: 3px;
+  width: 100%;
+  padding: 26px;
+  background: rgba(0, 0, 0, 0.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px black;
+  border-radius: 10px;
+}
+
+h2 {
+  margin: 0 0 30px;
+  padding: 0;
+  color: rgb(184, 215, 240);
+  text-align: center;
+}
+
+.loginValueDiv3 {
+  position: relative;
+}
+
+.loginValueDiv3Input {
+  width: 100%;
+  padding: 10px 0;
+  font-size: 16px;
+  color: blueviolet;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid white;
+  outline: none;
+  background: transparent;
+}
+
+.loginValueDiv3Input:focus ~ .loginValueDiv3InputLabel {
+  top: -25px;
+  left: 0;
+  color: #03e9f4;
+  font-size: 14.5px;
+}
+
+.loginValueDiv3InputLabel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: rgb(184, 215, 240);
+  pointer-events: none;
+  transition: 0.5s;
+}
+
+.loginValueButton {
+  position: relative;
+  display: inline-block;
+  padding: 10px 20px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: #03e9f4;
+  font-size: 16px;
+  text-transform: uppercase;
+  overflow: hidden;
+  transition: 0.5s;
+  letter-spacing: 4px;
+}
+
+.loginValueButton:hover {
+  background: #03e9f4;
+  color: rgb(80, 80, 80);
+  border-radius: 10px;
+  box-shadow: 0 0 5px #03e9f4, 0 0 25px #03e9f4, 0 0 50px #03e9f4,
+    0 0 100px #03e9f4;
+}
+
+.loginValueButtonSpanAll {
+  position: absolute;
+  display: block;
+}
+
+.loginValueButtonSpan1 {
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, #03e9f4);
+  animation: line-run1 1s linear infinite;
+  animation-delay: 0.8s;
+}
+
+.loginValueButtonSpan2 {
+  top: -100%;
+  right: 0;
+  width: 2px;
+  height: 70%;
+  background: linear-gradient(180deg, transparent, #03e9f4);
+  animation: line-run2 1s linear infinite;
+  animation-delay: 0.55s;
+}
+
+.loginValueButtonSpan3 {
+  right: -100%;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(270deg, transparent, #03e9f4);
+  animation: line-run3 1s linear infinite;
+  animation-delay: 0.8s;
+}
+
+.loginValueButtonSpan4 {
+  bottom: 0;
+  left: 0;
+  width: 2px;
+  height: 70%;
+  background: linear-gradient(360deg, transparent, #03e9f4);
+  animation: line-run4 1s linear infinite;
+  animation-delay: 0.01s;
+}
+
+@keyframes line-run1 {
+  0% {
+    left: -100%;
+  }
+
+  50%,
+  100% {
+    left: 100%;
+  }
+}
+
+@keyframes line-run2 {
+  0% {
+    top: -100%;
+  }
+
+  50%,
+  100% {
+    top: 100%;
+  }
+}
+
+@keyframes line-run3 {
+  0% {
+    right: -100%;
+  }
+
+  50%,
+  100% {
+    right: 100%;
+  }
+}
+
+@keyframes line-run4 {
+  0% {
+    bottom: -100%;
+  }
+
+  50%,
+  100% {
+    bottom: 100%;
+  }
+}

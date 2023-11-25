@@ -1,0 +1,22 @@
+.geoGeInfoDiv2 {
+  height: 200px;
+  /* border: solid; */
+  width: 100%;
+}
+
+h1 {
+  color: rgb(176, 141, 231);
+}
+
+.geoGeInfoSpan {
+  color: rgb(184, 215, 240);
+  box-shadow: 10px 13px 10px black;
+  border-radius: 10px;
+  border: solid rgb(176, 141, 231);
+}
+
+.geoGeInfoParagraf {
+  color: rgb(184, 215, 240);
+  line-height: 25px;
+  margin-top: 20px;
+}

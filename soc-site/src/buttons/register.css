@@ -1,0 +1,14 @@
+.registerDivteg > a {
+  color: rgb(184, 215, 240);
+  font-size: 15px;
+  text-decoration: none;
+
+  border: solid rgb(176, 141, 231);
+  border-radius: 10px;
+  width: 150px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

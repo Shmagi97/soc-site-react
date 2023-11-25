@@ -1,9 +1,16 @@
 import { useState } from 'react'
-import Masiv from './masivi/masivi'
+import LoginPage from './loginPage/loginPage'
+
 
 
 
 function App() {
+    return(
+<LoginPage/>
+    )
+    
+
+    
  
  
 }

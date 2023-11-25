@@ -1,0 +1,23 @@
+.logoAteg {
+  text-decoration: none;
+  /* border: solid; */
+}
+
+.logoAteg > div {
+  /* border: solid red; */
+  display: flex;
+
+  flex-direction: column;
+}
+
+.logoAteg > div > img {
+  width: 50px;
+  height: 45px;
+  border-radius: 50%;
+  box-shadow: 20px 13px 10px 6px black;
+}
+
+.logoAteg > div > span {
+  font-size: 17px;
+  color: rgb(184, 215, 240);
+}
