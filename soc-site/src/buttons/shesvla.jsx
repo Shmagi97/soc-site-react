@@ -1,10 +1,18 @@
 import "../buttons/shesvla.css"
+import { useRef } from "react"
 
-const Loggin = ()=> {
+const Loggin = ({inputFocusFn})=> {
+    
+    // const inputFocus = useRef()
+    
+    function inputFocusFn(ref){
+        ref.current.focus()
+    }
+
     return (
         <div className="loginDivTeg">
-           <button>შესვლა</button>
-         
+           <button  onClick={()=>inputFocusFn()}>შესვლა</button>
+           
         </div>
        
     )

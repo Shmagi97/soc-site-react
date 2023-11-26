@@ -6,9 +6,13 @@ import "../loginPage/loginPage.css"
 import WreBlur from '../wreBlur/wreBlur'
 import GeoGeInfo from '../GeoGeInfo/geoGeInfo'
 import LoginValue from '../LoginValue/loginValue'
+import Cda1 from '../sacdeli1'
+
 
 
 const LoginPage = ()=> {
+
+  
   return(
 
     <>
@@ -33,6 +37,8 @@ const LoginPage = ()=> {
         <GeoGeInfo/> 
         <LoginValue/>
      </div>
+     
+     <Cda1/>
     
     </>
   )
